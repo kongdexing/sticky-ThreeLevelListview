@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlTreeItem"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/color_list_group">
+
+    <TextView
+        android:id="@+id/txt_treeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="hello world"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/tree_item_size" />
+
+    <TextView
+        android:id="@+id/divider_btm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tree_item_divider_height"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white" />
+
+</RelativeLayout>
