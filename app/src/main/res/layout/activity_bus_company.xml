@@ -5,9 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
     android:orientation="vertical"
-    tools:context="com.ceiec.android.bustrack.ui.BusCompanyActivity">
-
-    <include layout="@layout/widget_search" />
+    tools:context="com.xing.demo.sticky.ui.BusCompanyActivity">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -19,7 +17,7 @@
             android:layout_height="match_parent"
             android:divider="@null"></ListView>
 
-        <com.ceiec.android.bustrack.adapter.StickyHeaderView
+        <com.xing.demo.sticky.adapter.StickyHeaderView
             android:id="@+id/stickyHeaderView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
